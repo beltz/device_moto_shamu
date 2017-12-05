@@ -1,0 +1,7 @@
+allow shell hwservice_contexts_file:file { getattr };
+allow shell init_exec:file { getattr };
+allow shell nonplat_service_contexts_file:file { getattr };
+allow shell persist_file:dir { getattr };
+allow shell rootfs:file { getattr };
+allow shell tombstone_data_file:dir { getattr };
+allow shell vndservice_contexts_file:file { getattr };
